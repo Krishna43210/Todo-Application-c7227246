@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.todoapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\DMA_C7227246_KrishnaNarayanSah_Comp1\c7227246-DMA-todoapp-final-Krishna-comp2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\DMA_C7227246_KrishnaNarayanSah_Comp1\c7227246-DMA-todoapp-final-Krishna-comp2\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\DMA_C7227246_KrishnaNarayanSah_Comp1\c7227246-DMA-todoapp-final-Krishna-comp2\app\src\main\AndroidManifest.xml:5:5-24:19
+12        android:allowBackup="true"
+12-->D:\DMA_C7227246_KrishnaNarayanSah_Comp1\c7227246-DMA-todoapp-final-Krishna-comp2\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\sahkr\.gradle\caches\transforms-3\f550a298487282cf8656bb37218ccfab\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\DMA_C7227246_KrishnaNarayanSah_Comp1\c7227246-DMA-todoapp-final-Krishna-comp2\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->D:\DMA_C7227246_KrishnaNarayanSah_Comp1\c7227246-DMA-todoapp-final-Krishna-comp2\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\DMA_C7227246_KrishnaNarayanSah_Comp1\c7227246-DMA-todoapp-final-Krishna-comp2\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->D:\DMA_C7227246_KrishnaNarayanSah_Comp1\c7227246-DMA-todoapp-final-Krishna-comp2\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->D:\DMA_C7227246_KrishnaNarayanSah_Comp1\c7227246-DMA-todoapp-final-Krishna-comp2\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="com.example.todoapp.EditTodoActivity" >
+21-->D:\DMA_C7227246_KrishnaNarayanSah_Comp1\c7227246-DMA-todoapp-final-Krishna-comp2\app\src\main\AndroidManifest.xml:12:9-14:20
+21-->D:\DMA_C7227246_KrishnaNarayanSah_Comp1\c7227246-DMA-todoapp-final-Krishna-comp2\app\src\main\AndroidManifest.xml:12:19-51
+22        </activity>
+23        <activity
+23-->D:\DMA_C7227246_KrishnaNarayanSah_Comp1\c7227246-DMA-todoapp-final-Krishna-comp2\app\src\main\AndroidManifest.xml:16:9-23:20
+24            android:name="com.example.todoapp.MainActivity"
+24-->D:\DMA_C7227246_KrishnaNarayanSah_Comp1\c7227246-DMA-todoapp-final-Krishna-comp2\app\src\main\AndroidManifest.xml:16:19-47
+25            android:exported="true" >
+25-->D:\DMA_C7227246_KrishnaNarayanSah_Comp1\c7227246-DMA-todoapp-final-Krishna-comp2\app\src\main\AndroidManifest.xml:16:48-71
+26            <intent-filter>
+26-->D:\DMA_C7227246_KrishnaNarayanSah_Comp1\c7227246-DMA-todoapp-final-Krishna-comp2\app\src\main\AndroidManifest.xml:17:13-22:25
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\DMA_C7227246_KrishnaNarayanSah_Comp1\c7227246-DMA-todoapp-final-Krishna-comp2\app\src\main\AndroidManifest.xml:19:13-65
+27-->D:\DMA_C7227246_KrishnaNarayanSah_Comp1\c7227246-DMA-todoapp-final-Krishna-comp2\app\src\main\AndroidManifest.xml:19:21-62
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->D:\DMA_C7227246_KrishnaNarayanSah_Comp1\c7227246-DMA-todoapp-final-Krishna-comp2\app\src\main\AndroidManifest.xml:21:13-73
+29-->D:\DMA_C7227246_KrishnaNarayanSah_Comp1\c7227246-DMA-todoapp-final-Krishna-comp2\app\src\main\AndroidManifest.xml:21:23-70
+30            </intent-filter>
+31        </activity>
+32
+33        <service
+33-->[androidx.room:room-runtime:2.2.5] C:\Users\sahkr\.gradle\caches\transforms-3\26c6401b059b32541b226c01ca68a313\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+34            android:name="androidx.room.MultiInstanceInvalidationService"
+34-->[androidx.room:room-runtime:2.2.5] C:\Users\sahkr\.gradle\caches\transforms-3\26c6401b059b32541b226c01ca68a313\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+35            android:directBootAware="true"
+35-->[androidx.room:room-runtime:2.2.5] C:\Users\sahkr\.gradle\caches\transforms-3\26c6401b059b32541b226c01ca68a313\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+36            android:exported="false" />
+36-->[androidx.room:room-runtime:2.2.5] C:\Users\sahkr\.gradle\caches\transforms-3\26c6401b059b32541b226c01ca68a313\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+37
+38        <provider
+38-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\sahkr\.gradle\caches\transforms-3\5b778824676878d4cf9016c991ac1c9b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+39            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+39-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\sahkr\.gradle\caches\transforms-3\5b778824676878d4cf9016c991ac1c9b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+40            android:authorities="com.example.todoapp.lifecycle-process"
+40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\sahkr\.gradle\caches\transforms-3\5b778824676878d4cf9016c991ac1c9b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+41            android:exported="false"
+41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\sahkr\.gradle\caches\transforms-3\5b778824676878d4cf9016c991ac1c9b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+42            android:multiprocess="true" />
+42-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\sahkr\.gradle\caches\transforms-3\5b778824676878d4cf9016c991ac1c9b\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+43    </application>
+44
+45</manifest>
