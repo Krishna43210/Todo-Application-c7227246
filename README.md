@@ -13,3 +13,8 @@
 
   <h2>Delete Message</h2>
 <img src="five.png" alt="Delete Confirmation" style="height:300px;"/>
+
+<h2>Video </h2>
+<video width="320" height="240" controls>
+  <source src="video.mp4" type="video/mp4">
+</video>
